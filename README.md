@@ -13,4 +13,4 @@ This project is just a 	color picker that I made with canvas just for learning p
 
 ## License
 
-# [MIT License](http://maxigor.mit-license.org/) © Max Igor
+[MIT License](http://maxigor.mit-license.org/) © Max Igor
