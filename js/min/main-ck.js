@@ -1,0 +1,1 @@
+function getRandomColor(){for(var t="0123456789ABCDEF".split(""),n="#",o=0;6>o;o++)n+=t[Math.round(16*Math.random())];return n}function draw(t,n){var o=document.getElementById("canvas"),e=o.getContext("2d");e.fillStyle=getRandomColor(),e.fillRect(t,n,1260,700)}
