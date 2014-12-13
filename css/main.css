@@ -94,6 +94,7 @@ textarea {
 
 body, html {
 	height:100%;
+	background-color: #000000;
 }
 
 input[type=image] {
@@ -102,6 +103,25 @@ input[type=image] {
 	left: 500px;
 	z-index: 1;
 }
+
+input[type=image]:hover {
+  transform: scale(1.1);
+}
+
+input[type=image]:focus {
+	outline: transparent;
+}
+
+#hex {
+	float: left;
+	z-index: 21;
+	color: #ccc;
+}
+
+/*
+coloquei o background preto
+outline do focus transparent
+*/
 
 * {
 	margin: 0;
